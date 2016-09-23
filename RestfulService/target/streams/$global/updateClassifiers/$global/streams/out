@@ -1,0 +1,1058 @@
+[warn] Multiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:
+[warn]  * org.scala-lang:scala-reflect:(2.11.2, 2.11.8)
+[warn]  * org.scala-lang.modules:scala-xml_2.11:(1.0.2, 1.0.4)
+[debug] :: resolving dependencies :: default#hellosbt$sources_2.11;1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.11.8 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52c8141a
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
+[debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
+[debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-http-experimental_2.11;1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d7d6702
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-http-experimental_2.11;1.0
+[debug] 	found com.typesafe.akka#akka-http-experimental_2.11;1.0 in sbt-chain
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-http-core-experimental_2.11;1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f91baec
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-http-core-experimental_2.11;1.0
+[debug] 	found com.typesafe.akka#akka-http-core-experimental_2.11;1.0 in sbt-chain
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-parsing-experimental_2.11;1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d419cd
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-parsing-experimental_2.11;1.0
+[debug] 	found com.typesafe.akka#akka-parsing-experimental_2.11;1.0 in sbt-chain
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-stream-experimental_2.11;1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4752e731
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-stream-experimental_2.11;1.0
+[debug] 	found com.typesafe.akka#akka-stream-experimental_2.11;1.0 in sbt-chain
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.12 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8cbec28
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.12
+[debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.12 in sbt-chain
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
+[info] Resolving com.typesafe#config;1.2.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ecde61f
+[debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.1
+[debug] 	found com.typesafe#config;1.2.1 in sbt-chain
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
+[info] Resolving org.reactivestreams#reactive-streams;1.0.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d71c34b
+[debug] sbt-chain: module revision found in cache: org.reactivestreams#reactive-streams;1.0.0
+[debug] 	found org.reactivestreams#reactive-streams;1.0.0 in sbt-chain
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15def6e2
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0
+[debug] 	found com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 in sbt-chain
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->default(compile)]
+[info] Resolving io.spray#spray-json_2.11;1.3.1 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a625718
+[debug] sbt-chain: module revision found in cache: io.spray#spray-json_2.11;1.3.1
+[debug] 	found io.spray#spray-json_2.11;1.3.1 in sbt-chain
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c746ec7
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0
+[debug] 	found com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 in sbt-chain
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->default(compile)]
+[info] Resolving com.typesafe.akka#akka-testkit_2.11;2.3.12 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18e75bd5
+[debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-testkit_2.11;2.3.12
+[debug] 	found com.typesafe.akka#akka-testkit_2.11;2.3.12 in sbt-chain
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [runtime]
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [test]
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [runtime]
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.5 [test->default(compile)]
+[info] Resolving org.scalatest#scalatest_2.11;2.2.5 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e79f24a
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.5
+[debug] 	found org.scalatest#scalatest_2.11;2.2.5 in sbt-chain
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.5 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.5 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.5 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@292e31b1
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
+[debug] 	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
+[debug] 	[2.11.2] org.scala-lang#scala-reflect;2.11.2
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@721378ec
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [compile-internal]
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->master]
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [optional]
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [provided]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile-internal->master]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [runtime-internal]
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [runtime]
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime->master]
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [optional]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime-internal->master]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [test-internal]
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [test]
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [runtime]
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [compile->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [runtime->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.5 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.5 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.5 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.5 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->master]
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [optional]
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [provided]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [test-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [test-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-experimental_2.11;1.0 [test-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [test-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [test-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-core-experimental_2.11;1.0 [test-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [test-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [test-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-parsing-experimental_2.11;1.0 [test-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [test-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [test-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-stream-experimental_2.11;1.0 [test-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [test-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [test-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [test-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.3.12 [test-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe#config;1.2.1 [test-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.reactivestreams#reactive-streams;1.0.0 [test-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [test-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [test-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0 [test-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [test-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [test-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [test-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->io.spray#spray-json_2.11;1.3.1 [test-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [test-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [test-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0 [test-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->com.typesafe.akka#akka-testkit_2.11;2.3.12 [test-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.5 [test-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.5 [test-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.5 [test-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scalatest#scalatest_2.11;2.2.5 [test-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.2 [test-internal->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test-internal->master]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for default#hellosbt$sources_2.11;1.0 [scala-tool]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->default(compile)]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.11.8 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.8 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.8
+[debug] 	found org.scala-lang#scala-compiler;2.11.8 in sbt-chain
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-compiler;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.8 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
+[debug] 	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
+[debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [scala-tool->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.4 [scala-tool->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [scala-tool->master]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->jline#jline;2.12.1 [scala-tool->default(compile)]
+[info] Resolving jline#jline;2.12.1 ...
+[debug] sbt-chain: Checking cache for: dependency: jline#jline;2.12.1 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: jline#jline;2.12.1
+[debug] 	found jline#jline;2.12.1 in sbt-chain
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->jline#jline;2.12.1 [scala-tool->runtime]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->jline#jline;2.12.1 [scala-tool->compile]
+[debug] == resolving dependencies default#hellosbt$sources_2.11;1.0->jline#jline;2.12.1 [scala-tool->master]
+[debug] 	resolved ivy file produced in cache
+[debug] :: downloading artifacts ::
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-experimental_2.11;1.0!akka-http-experimental_2.11.jar
+[debug] 		tried C:\Users\IBM_ADMIN\.ivy2\local\com.typesafe.akka\akka-http-experimental_2.11\1.0\srcs\akka-http-experimental_2.11-sources.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/1.0/akka-http-experimental_2.11-1.0-sources.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/1.0/akka-http-experimental_2.11-1.0-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/1.0/akka-http-experimental_2.11-1.0-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/1.0/akka-http-experimental_2.11-1.0-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/1.0/akka-http-experimental_2.11-1.0-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-http-experimental_2.11;1.0!akka-http-experimental_2.11.jar(src) (2513ms)
+[debug] 		tried C:\Users\IBM_ADMIN\.ivy2\local\com.typesafe.akka\akka-http-core-experimental_2.11\1.0\srcs\akka-http-core-experimental_2.11-sources.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core-experimental_2.11;1.0!akka-http-core-experimental_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/akka/akka-http-core-experimental_2.11/1.0/akka-http-core-experimental_2.11-1.0-sources.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/akka/akka-http-core-experimental_2.11/1.0/akka-http-core-experimental_2.11-1.0-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-http-core-experimental_2.11/1.0/akka-http-core-experimental_2.11-1.0-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-http-core-experimental_2.11/1.0/akka-http-core-experimental_2.11-1.0-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/akka/akka-http-core-experimental_2.11/1.0/akka-http-core-experimental_2.11-1.0-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-http-core-experimental_2.11;1.0!akka-http-core-experimental_2.11.jar(src) (2542ms)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing-experimental_2.11;1.0!akka-parsing-experimental_2.11.jar
+[debug] 		tried C:\Users\IBM_ADMIN\.ivy2\local\com.typesafe.akka\akka-parsing-experimental_2.11\1.0\srcs\akka-parsing-experimental_2.11-sources.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/akka/akka-parsing-experimental_2.11/1.0/akka-parsing-experimental_2.11-1.0-sources.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/akka/akka-parsing-experimental_2.11/1.0/akka-parsing-experimental_2.11-1.0-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-parsing-experimental_2.11/1.0/akka-parsing-experimental_2.11-1.0-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-parsing-experimental_2.11/1.0/akka-parsing-experimental_2.11-1.0-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/akka/akka-parsing-experimental_2.11/1.0/akka-parsing-experimental_2.11-1.0-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-parsing-experimental_2.11;1.0!akka-parsing-experimental_2.11.jar(src) (1950ms)
+[debug] 		tried C:\Users\IBM_ADMIN\.ivy2\local\com.typesafe.akka\akka-stream-experimental_2.11\1.0\srcs\akka-stream-experimental_2.11-sources.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream-experimental_2.11;1.0!akka-stream-experimental_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/akka/akka-stream-experimental_2.11/1.0/akka-stream-experimental_2.11-1.0-sources.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/akka/akka-stream-experimental_2.11/1.0/akka-stream-experimental_2.11-1.0-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-stream-experimental_2.11/1.0/akka-stream-experimental_2.11-1.0-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-stream-experimental_2.11/1.0/akka-stream-experimental_2.11-1.0-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/akka/akka-stream-experimental_2.11/1.0/akka-stream-experimental_2.11-1.0-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-stream-experimental_2.11;1.0!akka-stream-experimental_2.11.jar(src) (2402ms)
+[debug] 		tried C:\Users\IBM_ADMIN\.ivy2\local\com.typesafe.akka\akka-actor_2.11\2.3.12\srcs\akka-actor_2.11-sources.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.12!akka-actor_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.12/akka-actor_2.11-2.3.12-sources.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.12/akka-actor_2.11-2.3.12-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.12/akka-actor_2.11-2.3.12-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.12/akka-actor_2.11-2.3.12-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.3.12/akka-actor_2.11-2.3.12-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.11;2.3.12!akka-actor_2.11.jar(src) (2480ms)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar
+[debug] 		tried C:\Users\IBM_ADMIN\.ivy2\local\org.reactivestreams\reactive-streams\1.0.0\srcs\reactive-streams-sources.jar
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar
+[debug] 		tried https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0-sources.jar
+[info] downloading https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0-sources.jar
+[info] 	[SUCCESSFUL ] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar(src) (1430ms)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0!akka-http-spray-json-experimental_2.11.jar
+[debug] 		tried C:\Users\IBM_ADMIN\.ivy2\local\com.typesafe.akka\akka-http-spray-json-experimental_2.11\1.0\srcs\akka-http-spray-json-experimental_2.11-sources.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/akka/akka-http-spray-json-experimental_2.11/1.0/akka-http-spray-json-experimental_2.11-1.0-sources.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/akka/akka-http-spray-json-experimental_2.11/1.0/akka-http-spray-json-experimental_2.11-1.0-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-http-spray-json-experimental_2.11/1.0/akka-http-spray-json-experimental_2.11-1.0-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-http-spray-json-experimental_2.11/1.0/akka-http-spray-json-experimental_2.11-1.0-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/akka/akka-http-spray-json-experimental_2.11/1.0/akka-http-spray-json-experimental_2.11-1.0-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-http-spray-json-experimental_2.11;1.0!akka-http-spray-json-experimental_2.11.jar(src) (1500ms)
+[debug] 		tried C:\Users\IBM_ADMIN\.ivy2\local\io.spray\spray-json_2.11\1.3.1\srcs\spray-json_2.11-sources.jar
+[debug] 		tried C:\Users\IBM_ADMIN\.ivy2\local\io.spray\spray-json_2.11\1.3.1\jars\spray-json_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.1/spray-json_2.11-1.3.1-sources.jar
+[info] downloading https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.1/spray-json_2.11-1.3.1-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.1/spray-json_2.11-1.3.1-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.1/spray-json_2.11-1.3.1-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.1/spray-json_2.11-1.3.1-sources.jar
+[info] 	[SUCCESSFUL ] io.spray#spray-json_2.11;1.3.1!spray-json_2.11.jar(src) (1830ms)
+[debug] 		tried https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.1/spray-json_2.11-1.3.1.jar
+[info] downloading https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.1/spray-json_2.11-1.3.1.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.1/spray-json_2.11-1.3.1.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.1/spray-json_2.11-1.3.1.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/io/spray/spray-json_2.11/1.3.1/spray-json_2.11-1.3.1.jar
+[info] 	[SUCCESSFUL ] io.spray#spray-json_2.11;1.3.1!spray-json_2.11.jar (1530ms)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0!akka-http-testkit-experimental_2.11.jar
+[debug] 		tried C:\Users\IBM_ADMIN\.ivy2\local\com.typesafe.akka\akka-http-testkit-experimental_2.11\1.0\srcs\akka-http-testkit-experimental_2.11-sources.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/akka/akka-http-testkit-experimental_2.11/1.0/akka-http-testkit-experimental_2.11-1.0-sources.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/akka/akka-http-testkit-experimental_2.11/1.0/akka-http-testkit-experimental_2.11-1.0-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-http-testkit-experimental_2.11/1.0/akka-http-testkit-experimental_2.11-1.0-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-http-testkit-experimental_2.11/1.0/akka-http-testkit-experimental_2.11-1.0-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/akka/akka-http-testkit-experimental_2.11/1.0/akka-http-testkit-experimental_2.11-1.0-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-http-testkit-experimental_2.11;1.0!akka-http-testkit-experimental_2.11.jar(src) (1630ms)
+[debug] 		tried C:\Users\IBM_ADMIN\.ivy2\local\com.typesafe.akka\akka-testkit_2.11\2.3.12\srcs\akka-testkit_2.11-sources.jar
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.12!akka-testkit_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/com/typesafe/akka/akka-testkit_2.11/2.3.12/akka-testkit_2.11-2.3.12-sources.jar
+[info] downloading https://jcenter.bintray.com/com/typesafe/akka/akka-testkit_2.11/2.3.12/akka-testkit_2.11-2.3.12-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-testkit_2.11/2.3.12/akka-testkit_2.11-2.3.12-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/com/typesafe/akka/akka-testkit_2.11/2.3.12/akka-testkit_2.11-2.3.12-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/com/typesafe/akka/akka-testkit_2.11/2.3.12/akka-testkit_2.11-2.3.12-sources.jar
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-testkit_2.11;2.3.12!akka-testkit_2.11.jar(src) (1642ms)
+[debug] 		tried C:\Users\IBM_ADMIN\.ivy2\local\org.scalatest\scalatest_2.11\2.2.5\srcs\scalatest_2.11-sources.jar
+[debug] 		tried C:\Users\IBM_ADMIN\.ivy2\local\org.scalatest\scalatest_2.11\2.2.5\jars\scalatest_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.5/scalatest_2.11-2.2.5-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.5/scalatest_2.11-2.2.5-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.5/scalatest_2.11-2.2.5-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.5/scalatest_2.11-2.2.5-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.5/scalatest_2.11-2.2.5-sources.jar
+[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.5!scalatest_2.11.jar(src) (3690ms)
+[debug] 		tried https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.5/scalatest_2.11-2.2.5.jar
+[info] downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.5/scalatest_2.11-2.2.5.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.5/scalatest_2.11-2.2.5.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.5/scalatest_2.11-2.2.5.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scalatest/scalatest_2.11/2.2.5/scalatest_2.11-2.2.5.jar
+[info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.5!scalatest_2.11.jar (2690ms)
+[debug] 		tried C:\Users\IBM_ADMIN\.ivy2\local\org.scala-lang\scala-reflect\2.11.2\srcs\scala-reflect-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar(src) (3020ms)
+[debug] 		tried C:\Users\IBM_ADMIN\.ivy2\local\org.scala-lang.modules\scala-xml_2.11\1.0.2\srcs\scala-xml_2.11-sources.jar
+[debug] 		tried C:\Users\IBM_ADMIN\.ivy2\local\org.scala-lang.modules\scala-xml_2.11\1.0.2\jars\scala-xml_2.11.jar
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(src) (2182ms)
+[debug] 		tried https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+[info] downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar ...
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar.sha1
+[debug] sha1 OK for https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar (1540ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
+[debug] :: resolution report :: resolve 458ms :: artifacts dl 34690ms
+[debug] 	report for default#hellosbt$sources_2.11;1.0 compile produced in C:\AkkaDemos\HelloSBT\target\resolution-cache\reports\default-hellosbt$sources_2.11-compile.xml
+[debug] 	report for default#hellosbt$sources_2.11;1.0 runtime produced in C:\AkkaDemos\HelloSBT\target\resolution-cache\reports\default-hellosbt$sources_2.11-runtime.xml
+[debug] 	report for default#hellosbt$sources_2.11;1.0 test produced in C:\AkkaDemos\HelloSBT\target\resolution-cache\reports\default-hellosbt$sources_2.11-test.xml
+[debug] 	report for default#hellosbt$sources_2.11;1.0 provided produced in C:\AkkaDemos\HelloSBT\target\resolution-cache\reports\default-hellosbt$sources_2.11-provided.xml
+[debug] 	report for default#hellosbt$sources_2.11;1.0 optional produced in C:\AkkaDemos\HelloSBT\target\resolution-cache\reports\default-hellosbt$sources_2.11-optional.xml
+[debug] 	report for default#hellosbt$sources_2.11;1.0 compile-internal produced in C:\AkkaDemos\HelloSBT\target\resolution-cache\reports\default-hellosbt$sources_2.11-compile-internal.xml
+[debug] 	report for default#hellosbt$sources_2.11;1.0 runtime-internal produced in C:\AkkaDemos\HelloSBT\target\resolution-cache\reports\default-hellosbt$sources_2.11-runtime-internal.xml
+[debug] 	report for default#hellosbt$sources_2.11;1.0 test-internal produced in C:\AkkaDemos\HelloSBT\target\resolution-cache\reports\default-hellosbt$sources_2.11-test-internal.xml
+[debug] 	report for default#hellosbt$sources_2.11;1.0 plugin produced in C:\AkkaDemos\HelloSBT\target\resolution-cache\reports\default-hellosbt$sources_2.11-plugin.xml
+[debug] 	report for default#hellosbt$sources_2.11;1.0 sources produced in C:\AkkaDemos\HelloSBT\target\resolution-cache\reports\default-hellosbt$sources_2.11-sources.xml
+[debug] 	report for default#hellosbt$sources_2.11;1.0 docs produced in C:\AkkaDemos\HelloSBT\target\resolution-cache\reports\default-hellosbt$sources_2.11-docs.xml
+[debug] 	report for default#hellosbt$sources_2.11;1.0 pom produced in C:\AkkaDemos\HelloSBT\target\resolution-cache\reports\default-hellosbt$sources_2.11-pom.xml
+[debug] 	report for default#hellosbt$sources_2.11;1.0 scala-tool produced in C:\AkkaDemos\HelloSBT\target\resolution-cache\reports\default-hellosbt$sources_2.11-scala-tool.xml
+[debug] 	resolve done (458ms resolve - 34690ms download)
